@@ -7,16 +7,17 @@ Things you may want to know:
 * Ruby version: ruby 2.2.1p85
 * Rails version: 4.2.4
 
-== Setup
+== Setup and Test
 
-* clone
+* clone: `git clone git@github.com:awladnas/SolrSunspot.git`
 * change db credential
 
-* bundle
+* bundle: `bundle`
 
-* rake db:create
-* rake db:seed
+* create database `rake db:create`
+* Seed data: `rake db:seed`
 
-* rails g sunspot_rails:install
-* rake sunspot:solr:start
-* rake sunspot:reindex
+* install sunspot rails: `rails g sunspot_rails:install`
+* start solr: `rake sunspot:solr:start`
+* indexing : `rake sunspot:reindex`
+* run server and visit http://localhost:3000/
